@@ -1,0 +1,44 @@
+body {
+  background: rgb(242, 183, 104);
+  background: linear-gradient(
+    133deg,
+    rgba(242, 183, 104, 1) 24%,
+    rgba(251, 128, 59, 1) 70%,
+    rgba(255, 142, 39, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App-logo {
+  margin: 10px;
+  height: 14vmin;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
